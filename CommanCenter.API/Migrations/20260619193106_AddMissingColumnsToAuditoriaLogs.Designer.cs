@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CommanCenter.API.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260617194110_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20260619193106_AddMissingColumnsToAuditoriaLogs")]
+    partial class AddMissingColumnsToAuditoriaLogs
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
